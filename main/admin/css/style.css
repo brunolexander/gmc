@@ -1,0 +1,93 @@
+body {
+	padding-top: 50px;
+	background-color: #f1f1f1;
+}
+
+.oi {
+	font-size: 13px;
+	margin-right: 2px;
+}
+
+.navbar .dropdown-item a {
+	color: #1c1c1c;
+}
+
+.navbar .dropdown-item a:hover {
+	text-decoration: none;
+}
+
+.sidebar {
+	position: fixed;
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding: 20px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.sidebar .nav-link.active {
+	background-color: #000 !important;
+	color: #fff;
+}
+
+.sidebar .nav-link {
+	color: #999;
+}
+
+.sidebar .nav-link:hover {
+	background-color: #000 !important;
+	color: #fff;
+}
+
+[id*="dropdown-"] {
+	padding-left: 33px !important;
+}
+
+.dropdown-item {
+	padding: 0 !important;
+}
+
+.dropdown-item a {
+	display: block;
+	padding: 3px 1.5rem;
+}
+
+.table-striped {
+	background-color: #fff;
+}
+
+select {
+	font-size: 15px;
+	width: 120px;
+	padding: 3px;
+	height: 26px;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+.panel {
+	min-width: 255px;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	background: #fff;
+	padding: 16px;
+}
+
+.panel .scrollable {
+	padding-right: 20px;
+	overflow-y: scroll;
+	max-height: 400px;
+}
+
+.panel h2 {
+	font-size: 20px;
+}

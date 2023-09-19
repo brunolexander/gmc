@@ -1,0 +1,26 @@
+<?php
+
+try
+{
+    require __DIR__.'/../config.php';
+
+    $conn->begin_transaction();
+    $sql = file_get_contents(__DIR__.'/db_gmc.sql');
+
+    if ($conn->multi_query($sql) === false)
+    {
+        $conn->rollback();
+        die("\033[31mFailed to create migration: (#$conn->errno) $conn->error \033[0m\n");
+    }
+
+    $conn->commit();
+    echo "\033[32mMigration created successfully! \033[0m\n";
+
+} catch (\Throwable $th) {
+    $errno = $th->getCode();
+    $error = $th->getMessage();
+    die("\033[31mFailed to create migration: (#$errno) $error \033[0m\n");
+}
+
+
+?>

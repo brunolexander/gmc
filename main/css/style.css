@@ -1,0 +1,135 @@
+body {
+	background-image: url("../img/body_background.jpg");
+}
+
+footer {
+	background-color: #fff;
+	border-top: 7px solid #fe8e22;
+	box-shadow: 2px 2px 1px #e8e8e8;
+	color: #9d9996;
+}
+
+footer a {
+	color: #9d9996;
+}
+
+.nav-item-box {
+	width: 4px;
+}
+
+.h4-title
+{
+	background: #8e6d64;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px;
+	font-weight: normal;
+	font-size: 15px;
+	border-radius: 2px;
+	min-width: 150px;
+}
+
+#contact-form {
+	max-width: 450px;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+#nav-input-search input[type=text] {
+	background: none;
+	border: 1px solid #777;
+	border-radius: 2px;
+	border-right: none;
+	color: #fff;
+}
+
+#nav-input-search button[type=submit] {
+	background: none;
+	border: 1px solid #777;
+	border-radius: 2px;
+	border-left: none;
+	color: #fff;
+	cursor: pointer;
+	margin-left: -6px;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+.col-item {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	text-align: center;
+	padding: 20px;
+	min-height: 295px;
+	min-width: 240px;
+}
+
+.col-item h4 {
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 15px;
+	background: #bcaf8f;
+	padding: 10px;
+	box-shadow: 2px 2px 1px #e3e3e3;
+}
+
+.col-item img {
+	width: 180px;
+	height: 170px;
+}
+
+.col-item p, .col-item a {
+	text-align: justify;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #000;
+}
+
+#carousel img {
+	width: 100%;
+	height: 280px;
+}
+
+#sidebar {
+	padding: 15px;
+	background-color: #a5957b;
+	padding-bottom: 2.65em;
+	height: 280px;
+}
+
+#sidebar > a {
+	margin-top: 15px;
+	padding: 8px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-bottom: 1px solid #c6bca8;
+	display: block;
+}
+
+@media (max-width: 767px) {
+	#gmc-logo {
+		text-align: center;
+	}
+
+	#gmc-logo img {
+		width: 65%;
+		min-width: 180px;
+	}
+
+	#contact-form {
+		text-align: center;
+		max-width: 100%;
+	}
+
+	#sidebar {
+		height: auto !important;
+	}
+}
