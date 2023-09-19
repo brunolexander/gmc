@@ -23,8 +23,16 @@ function do_login_form($alert = '', $login = '')
 
 	<?php if (!empty($alert)) { ?><div class="alert alert-info"><span class="oi oi-align-center mr-2" data-glyph="warning"></span><?php echo $alert; ?><span class="oi oi-align-center float-right" data-glyph="circle-x" style="cursor: pointer;" data-dismiss="alert"></span></div><?php } ?>
 
-	<input type="text" class="form-control my-3" placeholder="Usuário ou email" name="login" value=<?php echo '"' . $login . '"'; ?> required></input>
-	<input type="password" class="form-control my-3" placeholder="Senha" name="password" required></input>
+	<div class="form-group">
+		<input type="text" class="form-control my-3" placeholder="Usuário ou email" name="login" value=<?php echo '"' . $login . '"'; ?> required></input>
+		<small class="form-text text-muted">Usuário: gmc</small>
+	</div>
+
+	<div class="form-group">
+		<input type="password" class="form-control my-3" placeholder="Senha" name="password" required></input>
+		<small class="form-text text-muted">Senha: gmc</small>
+	</div>
+
 	<button type="submit" class="btn" style="background-color: #1c1c1c; color: #ccc;">Login</button>
 </form>
 
