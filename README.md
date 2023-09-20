@@ -32,5 +32,5 @@ Docker is required to run the application, please refer to [docker docs](https:/
   ```
 
 4. Go to phpmyadmin through http://localhost:8081 and run the query located in main/db/db_gmc.sql
-
+<br>
 Done! You can access the application through the link http://localhost:8080.
