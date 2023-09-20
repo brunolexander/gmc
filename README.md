@@ -11,7 +11,7 @@ Website developed for a hometown marble & granite company as a freelancing proje
 
 # How to run
 
-Docker is required to run the application, please refer to [docker docs](https://docs.docker.com/get-docker/) for instalattion instructions.
+Docker is required to run the application, please refer to [docker docs](https://docs.docker.com/get-docker/) for installation instructions.
 <br>
 
 1. Clone the repo
